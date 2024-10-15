@@ -9,7 +9,7 @@ import {
     useColorModeValue
 } from '@chakra-ui/react'
 
-const Layout = () => {
+const Layout = ({ children }) => {
     return (
         <div>
             <Head><title> E-commerce App </title></Head>
@@ -51,6 +51,7 @@ const Layout = () => {
                     </Stack>
                 </Flex>
             </Box>
+            {children}
         </div>
     )
 }
