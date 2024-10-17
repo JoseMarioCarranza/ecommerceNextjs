@@ -10,7 +10,7 @@ const Products = () => {
                 {data.products.map((product) => (
                     <GridItem key={product.id}>
                         <Card>
-                            <Link href={`/products/${product.id}`}>
+                            <Link href={`/product/${product.id}`}>
                                 <Image
                                     src={`/images${product.image}`}
                                     height={230}
