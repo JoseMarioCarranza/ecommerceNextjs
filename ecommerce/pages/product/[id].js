@@ -83,6 +83,8 @@ const ProductPage = () => {
                             bg={useColorModeValue('gray.900', 'gray.50')}
                             color={useColorModeValue('white', 'gray.200')}
                             textTransform={'uppercase'}
+                            _hover={{ bg: 'green.400' }}
+                            _focus={{ boxShadow: 'outline' }}
                         >Add to cart</Button>
                     </Flex>
                 </Stack>
